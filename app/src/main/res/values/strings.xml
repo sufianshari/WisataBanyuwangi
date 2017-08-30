@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Wisata Banyuwangi</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_home">Wisata Banyuwangi</string>
+    <string name="title_wisata">Wisata</string>
+    <string name="title_jelajah">Jelajah</string>
+    <string name="title_peta">Peta</string>
+    <string name="title_panggilan">Panggilan Darurat</string>
+    <string name="title_bantuan">Bantuan</string>
+    <string name="title_informasi">Informasi</string>
+
+    <string name="btn_call_polisi">Polisi - 110</string>
+    <string name="btn_call_ambulan1">Ambulance - 118</string>
+    <string name="btn_call_ambulan2">Ambulance - 119</string>
+    <string name="btn_call_damkar">Pemadam Kebakaran - 113</string>
+    <string name="btn_call_sar">SAR/BASARNAS - 115</string>
+    <string name="btn_call_pln">PLN - 123</string>
+    <string name="btn_call_posko">Posko Bencana - 129</string>
+    <string name="title_activity_peta">Peta Wisata</string>
+</resources>
