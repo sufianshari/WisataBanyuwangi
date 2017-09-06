@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.banyuwangi.wisatabanyuwangi.R;
+import com.banyuwangi.wisatabanyuwangi.activity.PetaActivity;
 import com.banyuwangi.wisatabanyuwangi.activity.WisataAlamActivity;
 import com.banyuwangi.wisatabanyuwangi.activity.WisataBudayaActivity;
 import com.banyuwangi.wisatabanyuwangi.activity.WisataKeluargaActivity;
@@ -22,6 +23,7 @@ import com.banyuwangi.wisatabanyuwangi.activity.WisataSejarahActivity;
 public class BerandaFragment extends Fragment {
 
     Button btnWisataAlam, btnWisataSejarah, btnWisataKeluarga, btnWisataBudaya;
+    Button btnPeta;
     View view;
 
     public BerandaFragment() {
@@ -67,6 +69,13 @@ public class BerandaFragment extends Fragment {
                 startActivity(intent);
             }
         });
+        btnPeta.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(getActivity(), PetaActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
         return view;
@@ -77,6 +86,7 @@ public class BerandaFragment extends Fragment {
         btnWisataSejarah = (Button) view.findViewById(R.id.btnWisataSejarah);
         btnWisataKeluarga = (Button) view.findViewById(R.id.btnWisataKeluarga);
         btnWisataBudaya = (Button) view.findViewById(R.id.btnWisataBudaya);
+        btnPeta = (Button) view.findViewById(R.id.btnPeta);
     }
 
 }
